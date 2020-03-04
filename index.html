@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+  <section id="Main">
+    <!-- i hope this works -->
+    <!-- NAV BAR  -->
+    <div class="nav">
+    <!-- <img class ="menu-icon" src="image/cake.svg"> -->
+      <div id="hamburger" onclick="changeNav()">
+        <div class="line"></div>
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+        <div class="content">
+          <a href="#About">About</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Porfolio">Porfolio</a>
+          <a href="#Contact">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- INTRO PAGE -->
+    <div class="section-1">
+      <div class="s1-txt">
+        <h2>ADEL</h2>
+        <p id="testscroll"></p>
+      </div>
+      <!-- <img class="s1-img" src="image/fp2.jpg"> -->
+    </div>
+  </section>
+  <section  id="About">
+    <div class="section-2">
+      <!-- <div class="row"> </div>-->
+        <div class="s2-txt" >
+        <h2 class="head-txt">About Me</h2>
+        <p>Hi my name is Adeline! I am currently a year 2, studying Information Technology in Ngee Ann. Helping others is a key passion that I have in life, which is my motivation to learn new skills everyday. Hence as an upcoming Entrepreneur, UX designer and Mobile/Web developer, I strive to polish my skills to be better.</p>
+        <a href="resume/CV.pdf" target="_blank">My CV</a>
+      </div>
+      <div class="s2-img">
+        <img class="s2img" src="image/me.jpg">
+      </div>
+
+      </div>
+  </section>
+  <section id="Skills">
+    <div class="section-3">
+      <h1 class="head-txt">Skills</h1>
+      <div class="s3-txt row">
+        <div class="tech txt col-md-4">
+          <span class="s3-p"><img src="image/skill1.png"></span>
+          <h2>Technical</h2>
+          <p>Mobile app development IOS and
+          Web development</p>
+        </div>
+        <div class="per txt col-md-4">
+          <span class="s3-p"><img src="image/skill2.png"></span>
+          <h2>Personal</h2>
+          <p>Always having fun in designing (art, UI/UX) & photography</p>
+        </div>
+        <div class="add txt col-md-4">
+          <span class="s3-p"><img src="image/skill3.png"></span>
+          <h2>Additional</h2>
+          <p>I am  team player who is passionate & motivated to learn from others with an open mind!</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section id="Porfolio">
+    <div class="section-4">
+      <div class="s4-head">
+        <div class="s4-headtxt">
+          <h1 class="head-txt">Portfolio</h1>
+        <p>Here are some of my projects and assignments I have been working on/already completed. Many of these projects really broaden my knowledge in programming, designing and especially in entrepreneurship.</p>
+        </div>
+      </div> 
+      <!-- SUB HEADING -->
+      <h1 class="sub-text proj-txt">Projects</h1>
+      <div class="row">
+      <!-- CARD 1 -->
+      <div class="column">
+        <div class="cards">
+          <img src="image/memento.png">
+          <div class="card-txt">
+            <h2>Memento</h2>
+            <p>Our team is here to aid those with ASD who have troubles with switching focus between tasks. We hence created Jack In The Box to serve as a reminder device.</p>
+            <h4>Tools Used:</h4>
+            <p>React Native, Raspberry Pi, HTML, CSS, Javascript, Websocket, AdobeXD</p>
+            <!-- Button to trigger the pop up box -->
+            <!-- https://github.com/mrzzy/memento -->
+            <a id="myBtn1" target="_blank" href="https://github.com/mrzzy/memento">Learn More</a>
+            <!-- the model -->
+            <!-- <div id="myModal1" class="modal">
+                <div class="modal-content">
+                <span class="close1">&times;</span>
+                <p></p>
+              </div>
+
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- CARD 2 -->
+        <div class="column">
+          <div class="cards">
+            <img src="image/web.jpeg">
+            <div class="card-txt">
+              <h2>Eportfolio</h2>
+              <p>Using ASP.NET MVC, managed by a team of 4. We developed this web application that serves as an e-portfolio for students in school, it will display their skillset and projects.</p>
+              <h4>Tools Used:</h4>
+              <p>HTML, CSS, Javascript, Bootstrap, JQuery, ASP.NET MVC, Visual Studio, SQL Server</p>
+              <a href="https://bitbucket.org/deux08/web2019asn_p03_team3/src/master/">Learn More</a>
+          </div>
+        </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="column">
+          <div class="cards">
+            <img src="image/mad1.png">
+            <div class="card-txt">
+              <h2>Fast Food Fushion</h2>
+              <p>Our app is a food delivery service app specifically for fast food chains around Singapore. 
+              You can, select the chain of the fast food restaurant on a map, order food, checkout and view profile.</p>
+              <h4>Tools Used:</h4>
+              <p>Xcode 11, Google Presentation, Canva</p>
+              <a target="-_blank" href="https://docs.google.com/presentation/d/1TRRiHxbxHy7ZaDKIRDsnEYPp1VfgTuCEboaFW6nGQFY/edit?usp=sharing">Learn More</a>
+            </div>
+          </div>
+        </div>
+              <!-- <a href="">View More</a> -->
+      </div>
+      <div class="viewbtn">
+        <a href="">View More</a>
+      </div>
+  </section>
+
+<!-- FOOTER SECTION -->
+
+
+<footer id="Contact">
+ <div class="foot container">
+   <div class="row">
+
+<!--     <div class="search-text">
+      <form id="search-form" class="form-search form-horizontal">
+                <input type="text" class="input-search" placeholder="Email Address">
+                <button type="submit" class="btn-search">Submit</button>
+            </form>
+    </div> -->
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <span class="logo">"Learning new is something new"</span>
+              <p class="sublogo">~Adeline 2020</p>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="menu">
+                     <span>Menu</span>    
+                     <li><a href="#Main">Home</a></li>
+                      <li><a href="#About">About</a></li>
+                      <li><a href="#Skills">Skills</a></li>
+                      <li><a href="#Portfolio">Portfolio</a></li>
+                 </ul>
+            </div>
+       
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="address">
+                    <span>Contact</span>       
+                    <li>
+                       <i class="fa fa-phone" aria-hidden="true"></i> <b>Phone</b> &nbsp;&nbsp; &nbsp;91738937
+                    </li> 
+                    <li>
+                       <i class="fa fa-envelope" aria-hidden="true"></i><b>Email</b>  &nbsp; &nbsp; &nbsp;&nbsp;adelinew06@gmail.com
+                    </li> 
+               </ul>
+           </div>
+       
+       
+       </div> 
+    </div>
+</footer>
+
+<!-- copyright div  -->
+
+<div class="copyright text-center">
+  <p>Copyright © 2019 Adeline Wong Qi Yuan</p>
+</div>
+
+
+
+<!-- Javascript -->
+<script>
+function changeNav() {
+  let side = document.getElementById("mySidenav");
+  if (side.style.width == "350px")
+    side.style.width = "0";
+  else
+    side.style.width = "350px";
+  let element = document.getElementById("hamburger");
+  element.classList.toggle("isActive");
+  document.getElementById("main").style.marginLeft = "370px";
+
+}
+// // Get the modal
+// var modal1 = document.getElementById("myModal1");
+
+// // Get the button that opens the modal
+// var btn = document.getElementById("myBtn1");
+
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close1")[0];
+
+// // When the user clicks the button, open the modal 
+// btn.onclick = function() {
+//   modal1.style.display = "block";
+// }
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//   modal1.style.display = "none";
+// }
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal1.style.display = "none";
+//   }
+// }
+
+</script>
+
+
+</body>
