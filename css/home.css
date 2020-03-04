@@ -551,6 +551,24 @@ footer{
   font-weight: 650;
 }
 
+@media (max-width:380px) {
+  .s1-txt h2 {
+    letter-spacing: 2em;
+  }
+  .section-1 {
+    background-size: cover;
+  }
+  .s4-headtxt {
+    margin: 0 ;
+}
+}
+
+
+@media (max-width:985px) {
+  .s4-headtxt {
+    margin: 0 3rem;
+}
+}
 
 @media (max-width:985px) {
   .s3-txt .col-md-4{
