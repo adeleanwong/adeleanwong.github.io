@@ -129,13 +129,13 @@ a{
 
 /*SECTION 1*/
 .section-1{
-  background-image: url(../image/fp3.jpg);
-  background-size: 100%;
+  background-image: url(../image/fp2.png);
+  background-size: 60%;
   /*85vw 20vw*/
   /*background-position: 6.3vw bottom;*/
   height: 100vh;
    background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
 
   background-repeat: no-repeat;
   display: flex;
@@ -296,6 +296,9 @@ a{
 .viewbtn:hover {
   background-color: var(--text-colour);
 }
+.s3-txt .skill-txt{
+  text-align: initial;
+}
 
 /*SECTION 4 :Projects*/
 .section-4 {
@@ -340,6 +343,9 @@ a{
 .cards .card-txt {
   padding: 1.5rem 0;
 }
+.cards .role-txt p{
+  margin-bottom:0 ;
+}
 
 .cards img {
   width: 100%;
@@ -348,7 +354,7 @@ a{
   margin-top: 25px;
 }
 .card-txt p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .cards a {
