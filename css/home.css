@@ -297,7 +297,7 @@ a{
   background-color: var(--text-colour);
 }
 
-/*SECTION 4*/
+/*SECTION 4 :Projects*/
 .section-4 {
   text-align: center;
 }
@@ -390,6 +390,28 @@ a{
   background-color: var(--sub-colour);
 }
 
+/* lightbox */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
 
 /*the learn more section*/
 /* The Modal (background) */
