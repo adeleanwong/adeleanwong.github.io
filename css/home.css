@@ -129,13 +129,16 @@ a{
 
 /*SECTION 1*/
 .section-1{
-  background-image: url(../image/fp2.png);
+  background-image: url(../image/fp1a.png);
+  background-size: 100%;
+  background-position: center;
+  /* background-image: url(../image/fp2.png);
   background-size: 60%;
+  background-position: bottom; */
   /*85vw 20vw*/
   /*background-position: 6.3vw bottom;*/
   height: 100vh;
    background-attachment: fixed;
-  background-position: bottom;
 
   background-repeat: no-repeat;
   display: flex;
